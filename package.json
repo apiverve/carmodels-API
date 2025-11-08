@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/carmodels",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Car Models is a simple tool for getting information on cars. It returns information on various car models",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/carmodels-API.git"
   },
   "keywords": [
-    "car models","car models api","car models tool","car models software","car models service"
+    "car models", "car models api", "car models tool", "car models software", "car models service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/carmodels-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/carmodels?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/carmodels?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.8.4"
   }
 }
